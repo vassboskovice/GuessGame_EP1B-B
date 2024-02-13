@@ -3,7 +3,8 @@
 Module Program
     Sub Main(args As String())
         Console.CursorVisible = False
-
+        Console.BackgroundColor = ConsoleColor.White
+        Console.ForegroundColor = ConsoleColor.Black
         Menu()
 
         Console.ReadKey()
